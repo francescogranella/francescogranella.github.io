@@ -1,0 +1,16 @@
+<div class="introduction">
+	{{ with .Site.Params.wips }}
+	<h4>Work in progress</h4>
+	<ul>
+		{{- range $index, $wips_map := $.Site.Params.wips -}}
+
+		{{ range $elem_index, $wip := $wips_map.wip }}
+		<li>{{ $wip.name | markdownify }} 
+			<span> {{ $wip.description | markdownify}} </span>
+		</li>
+		{{ end }}
+
+		{{- end -}}
+	</ul>
+	{{ end }}
+</div>
