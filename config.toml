@@ -2,7 +2,7 @@
 languageCode = "en-us"
 title = "Francesco Granella"
 # theme = "avicenna"
-# googleAnalytics = "UA-1234-6"
+googleAnalytics = "UA-159974102-1"
 timeout=3000
 
 [params]
