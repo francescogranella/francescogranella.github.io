@@ -1,4 +1,14 @@
 <head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-159974102-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-159974102-1');
+	</script>
+
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	{{- $title := ( .Title ) -}}
@@ -35,5 +45,4 @@
 	<script src="js/feather.min.js"></script>
 	{{- end -}}
 	<script src="js/main.js"></script>
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-159974102-1"></script>
 </head>
