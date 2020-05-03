@@ -8,7 +8,7 @@ timeout=3000
 [params]
   subtitle= "PhD Student"
   interests="Environmental economics, political economics"
-  cv_name= "CV_Oct2019.pdf"
+  cv_name= "CV_Apr2020.pdf"
   # blog="http://myblog.edu"
 
 [[params.affilation]]
