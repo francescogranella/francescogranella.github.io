@@ -5,7 +5,11 @@
 	</span>
 	<br>
 	{{- end -}}
+
+	{{ if $.Site.Params.interests }}
 	<span>
-		<b>Interests.</b> {{ $.Site.Params.interests | markdownify }}
+			<b>Interests.</b> {{ $.Site.Params.interests | markdownify }}		
 	</span>
+	{{- end -}}
+	
 </div>

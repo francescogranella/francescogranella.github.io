@@ -7,7 +7,7 @@ timeout=3000
 
 [params]
   subtitle= "PhD Student"
-  interests="Environmental economics, political economics"
+  # interests="Environmental economics, political economics"
   cv_name= "CV_Apr2020.pdf"
   # blog="http://myblog.edu"
 
@@ -38,13 +38,12 @@ timeout=3000
 #   url = "https://linkedin.com/in/"
 
 
-[[params.introduction.paragraph]]
-  text="""I am a PhD student in Public Policy & Administration at Bocconi University. 
+# [[params.introduction.paragraph]]
+#   text="""I am a PhD student in Public Policy & Administration at Bocconi University."""
 
-  This website is under construction. Come back soon to see what has changed!
-   """
 [[params.introduction.paragraph]]
-  text="""
+  text="""  
+
   """
 
 [[params.wips]]
@@ -65,7 +64,7 @@ timeout=3000
 [[params.wips]]
 	[[params.wips.wip]]
 		name = "*Is (campaign) money for nothing? The effects of the 2015 Brazilian ban on corporate contributions on procurement outcomes and other forms of campaign contributions.*  With Alexandros Cavgias"
-		# description  = "With Alexandros Cavgias"
+		description  = "Presented at the 2020 Conference of the American Political Science Association"
 		# project_page = ""
 		# code_link = ""
 		# blog_link = ""
@@ -94,6 +93,18 @@ timeout=3000
 		# code_link = ""
 		# blog_link = ""
 
+[[params.wps]]
+
+   [[params.wps.paper]]
+     name = "COVID-19 lockdown only partially alleviates health impacts of air pollution in Northern Italy"
+    authors = "__Francesco Granella__, Lara Aleluia Reis, Valentina Bosetti, Massimo Tavoni"
+     # dest  = ""
+     link = "https://osf.io/b38h2"
+     # code_link = "https://thecoderepo.com"
+     # blog_link = "https://myblogaboutit.com"
+     # description = ""
+
+
 # [[params.projects]]
 # 	[[params.projects.project]]
 # 		name = "Air pollution and physical performance"
@@ -102,30 +113,23 @@ timeout=3000
 		# code_link = "https://coderepo.com"
 		# blog_link = "https://ablogpost.com"
 
- # [[params.projects.project]]
-	# 	name = "Emloyment dynamics in the aftermath of floods"
-		# description  = ""
-		# project_page = "https://myprojecthomepage.com"
-		# code_link = "https://coderepo.com"
-		# blog_link = ""
-
- # [[params.projects.project]]
+ # [[params._projects.project]]
 	# 	name = "Integer eget aliquet nibh praesent tristique magna"
 	# 	description  = ""
 	# 	project_page = "https://myprojecthomepage.com"
 	# 	code_link = ""
-	# 	blog_link = "https://ablogpost.com"
+	# 	bloglink = "https://ablogpost.com"
 
 # [[params.publications]]
-  # year="Preprint"
+# year="Preprint"
 
-#   [[params.publications.paper]]
-#     name = "Enim nunc faucibus a pellentesque sit amet porttitor"
+#    [[params.publications.paper]]
+#      name = "Enim nunc faucibus a pellentesque sit amet porttitor"
 #     authors = "Ana Alvardo, William Worthley, __Hadi Sinaee__"
-#     dest  = "Helga Zita Journal"
-#     link = "https://mypaperishere.com"
-#     code_link = "https://thecoderepo.com"
-#     blog_link = "https://myblogaboutit.com"
+#      dest  = "Helga Zita Journal"
+#      link = "https://mypaperishere.com"
+#      code_link = "https://thecoderepo.com"
+#      blog_link = "https://myblogaboutit.com"
 
 #   [[params.publications.paper]]
 #     name = "In cursus turpis massa tincidunt dui ut ornare lectus sit"
