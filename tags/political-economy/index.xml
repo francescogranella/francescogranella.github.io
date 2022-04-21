@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Political economy on Francesco Granella</title>
+    <link>/tags/political-economy/</link>
+    <description>Recent content in Political economy on Francesco Granella</description>
+    <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; Francesco Granella {year}</copyright>
+    <lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="/tags/political-economy/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Campaign money for nothing? Understanding the consequences of a ban on corporate contributions: evidence from Brazil.</title>
+      <link>/project/donations/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/project/donations/</guid>
+      <description>&lt;p&gt;We study the effects of the 2015 ban on corporate contributions in Brazil on the allocation of procurement contracts and the frequency of large personal contributions of corporate members, a channel to circumvent the ban. We use difference in differences regression models that compare outcomes of contributing and non-contributing firms before and after the ban. We document three findings. First, before the ban, contributing firms won 20 to 25% more procurement tenders per year than non-contributing firms. Second, the ban on corporate contributions significantly decreased the number of national procurement contracts won by contributing firms by 2 to 11 percentage points, a magnitude that only partially offset their previous advantage. Third, firms previously making large contributions circumvent the ban in both national and local elections with donations from owners and board members. Together, our findings suggest that a ban on corporate contributions have limited effects on the average influence of contributing firms when there are mechanisms to circumvent the ban.&lt;/p&gt;
+&lt;p&gt;Presentations: MPSA 2020 (canceled), EPSA (2021), APSA (2020)&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

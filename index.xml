@@ -1,10 +1,127 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Francesco Granella</title>
     <link>/</link>
     <description>Recent content on Francesco Granella</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; Francesco Granella {year}</copyright>
+    <lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Recent &amp; Upcoming Talks</title>
+      <link>/talk/</link>
+      <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
+      
+      <guid>/talk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>/project/</link>
+      <pubDate>Thu, 27 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/project/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Publications</title>
+      <link>/publication/</link>
+      <pubDate>Mon, 27 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Posts</title>
+      <link>/post/</link>
+      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Slides</title>
+      <link>/slides/</link>
+      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/slides/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/privacy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/privacy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/research/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/research/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Teaching</title>
+      <link>/courses/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/courses/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=30387&amp;amp;anno=2022&amp;amp;IdPag=&#34;&gt;Climate Change Economics&lt;/a&gt; (Undergraduate)
+&lt;ul&gt;
+&lt;li&gt;Course director: Valentina Bosetti&lt;/li&gt;
+&lt;li&gt;Fall 2021&lt;/li&gt;
+&lt;li&gt;Tutoring&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=30280&amp;amp;anno=2021&amp;amp;IdPag=6352&#34;&gt;Applications for Management&lt;/a&gt; (Undergraduate applied statistics)
+&lt;ul&gt;
+&lt;li&gt;with prof Arnstein Aasve and prof Alessia Melegaro&lt;/li&gt;
+&lt;li&gt;Fall 2019, 2020&lt;/li&gt;
+&lt;li&gt;Teaching, tutoring&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=30317&amp;amp;anno=2020&amp;amp;IdPag=6163&#34;&gt;Political Science and Comparative Politics&lt;/a&gt; (Undergraduate),
+&lt;ul&gt;
+&lt;li&gt;with prof Piero Stanig and prof Livio Di Lonardo&lt;/li&gt;
+&lt;li&gt;Fall 2019, 2020&lt;/li&gt;
+&lt;li&gt;Tutoring&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://didattica.unibocconi.eu/ts/tsn_anteprima.php?cod_ins=20672+&amp;amp;anno=2021&amp;amp;IdPag=6204&#34;&gt;Comparative Politics: Institutions and Institutional Development&lt;/a&gt; (Graduate)
+&lt;ul&gt;
+&lt;li&gt;with prof Piero Stanig&lt;/li&gt;
+&lt;li&gt;Fall 2020&lt;/li&gt;
+&lt;li&gt;Tutoring&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>

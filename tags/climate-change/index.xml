@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Climate change on Francesco Granella</title>
+    <link>/tags/climate-change/</link>
+    <description>Recent content in Climate change on Francesco Granella</description>
+    <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; Francesco Granella {year}</copyright>
+    <lastBuildDate>Thu, 27 Jan 2022 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="/tags/climate-change/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Persistent Effect of Temperature on GDP identified from Lower Frequency Temperature Variability</title>
+      <link>/project/tempgdp/</link>
+      <pubDate>Thu, 27 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/project/tempgdp/</guid>
+      <description>&lt;p&gt;With Bernardo Bastien-Olvera and Frances Moore&lt;/p&gt;
+&lt;p&gt;It is well established that temperature variability affects a range of outcomes relevant to human welfare, including health, emotion and mood, and productivity across a number of economic sectors. However, a critical and still unresolved empirical question is whether temperature variation has a long-lasting effect on economic productivity and, therefore, whether damages compound over time in response to long-lived changes in temperature expected with climate change. Several studies have identified a relationship between temperature and GDP, but empirical evidence as to the persistence of these effects is still weak. This paper presents a novel approach to isolate the persistent component of temperature effects on output using lower frequency temperature variation. The effects are heterogenous across countries but collectively, using three different GDP datasets, we find evidence of persistent effects, implying temperature affects the determinants of economic growth, not just economic productivity. This in turn means that the aggregate effects of climate change on GDP may be far larger and far more uncertain than currently represented in integrated assessment models used to calculate the social cost of carbon.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
