@@ -59,6 +59,17 @@
     
     <item>
       <title></title>
+      <link>/404.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/404.html</guid>
+      <description>&lt;h2 id=&#34;ooups-page-not-found&#34;&gt;Ooups! Page not found&lt;/h2&gt;
+&lt;p&gt;Go back &lt;a href=&#34;/&#34;&gt;home&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>/privacy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
