@@ -18,8 +18,7 @@
       <pubDate>Thu, 27 Jan 2022 00:00:00 +0000</pubDate>
       
       <guid>/project/tempgdp/</guid>
-      <description>&lt;p&gt;Accepted at &lt;em&gt;Environmental Research Letters&lt;/em&gt;.&lt;/p&gt;
-&lt;p&gt;With Bernardo Bastien-Olvera and Frances Moore&lt;/p&gt;
+      <description>&lt;p&gt;Bastien-Olvera, B. A., Granella, F., &amp;amp; Moore, F. C. (2022). Persistent effect of temperature on GDP identified from lower frequency temperature variability. &lt;em&gt;Environmental Research Letters&lt;/em&gt;, 17(8), 084038&lt;/p&gt;
 &lt;p&gt;It is well established that temperature variability affects a range of outcomes relevant to human welfare, including health, emotion and mood, and productivity across a number of economic sectors. However, a critical and still unresolved empirical question is whether temperature variation has a long-lasting effect on economic productivity and, therefore, whether damages compound over time in response to long-lived changes in temperature expected with climate change. Several studies have identified a relationship between temperature and GDP, but empirical evidence as to the persistence of these effects is still weak. This paper presents a novel approach to isolate the persistent component of temperature effects on output using lower frequency temperature variation. The effects are heterogenous across countries but collectively, using three different GDP datasets, we find evidence of persistent effects, implying temperature affects the determinants of economic growth, not just economic productivity. This in turn means that the aggregate effects of climate change on GDP may be far larger and far more uncertain than currently represented in integrated assessment models used to calculate the social cost of carbon.&lt;/p&gt;
 </description>
     </item>
@@ -30,8 +29,7 @@
       <pubDate>Mon, 27 Apr 2020 00:00:00 +0000</pubDate>
       
       <guid>/project/covid/</guid>
-      <description>&lt;p&gt;Published on &lt;em&gt;Environmental Research Letters&lt;/em&gt;.&lt;/p&gt;
-&lt;p&gt;With Lara Aleluia Reis, Valentina Bosetti, and Massimo Tavoni.&lt;/p&gt;
+      <description>&lt;p&gt;Granella, F., Reis, L. A., Bosetti, V., &amp;amp; Tavoni, M. (2021). COVID-19 lockdown only partially alleviates health impacts of air pollution in Northern Italy. &lt;em&gt;Environmental Research Letters&lt;/em&gt;, 16(3), 035012.&lt;/p&gt;
 &lt;p&gt;Evaluating the reduction in pollution caused by a sudden change in emissions is complicated by the
 confounding effect of weather variations. We propose an approach based on machine learning to
 build counterfactual scenarios that address the effect of weather and apply it to the COVID-19
