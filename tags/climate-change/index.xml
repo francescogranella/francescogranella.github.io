@@ -7,10 +7,21 @@
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; Francesco Granella {year}</copyright>
-    <lastBuildDate>Thu, 27 Jan 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 14 Aug 2023 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="/tags/climate-change/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Climate Change Impacts on Within-Country Income Distributions</title>
+      <link>/project/impacts/</link>
+      <pubDate>Mon, 14 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/project/impacts/</guid>
+      <description>&lt;p&gt;With &lt;a href=&#34;https://www.eiee.org/member/martino-gilli/&#34;&gt;Martino Gilli&lt;/a&gt;, &lt;a href=&#34;https://www.som.polimi.it/people/calcaterra-matteo-3/&#34;&gt;Matteo Calcaterra&lt;/a&gt; and &lt;a href=&#34;https://www.eiee.org/member/johannes-emmerling/&#34;&gt;Johannes Emmerling&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;This paper investigates the relationship between climate change and income inequality, recognizing that the economic impacts of climate change are not uniform across different levels of income within and across countries. Using methods from the existing literature on climate and economic growth, we analyze the economic impact of rising temperatures by within-country income decile. Our findings suggest that climate change disproportionately affects the poorer segments of the population within countries, even after accounting for a country&amp;rsquo;s ability to adapt to climate impacts, while the richest suffer the lowest damages. In a Reference scenario without additional climate action, we estimate that climate impacts could lead to an increase of the Gini index by up to six points, notably in Sub-Saharan Africa. Globally, we estimate that around three quarters of the total variation in climate impacts is due to between-country heterogeneity, and one-quarter is due to within-country inequality. We project damages to 2100 through the RICE50+ model and estimate the income elasticity of damages within countries. Our estimates indicate that the total economic impact of climate change is regressive, with an income elasticity of damages of 0.72 under our preferred specification. We find climate impacts to be especially regressive in poorer and hotter countries. While global damages are sensitive to the functional form of the damage function, the estimated income elasticity parameter is robust across different specifications.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Persistent Effect of Temperature on GDP identified from Lower Frequency Temperature Variability</title>
