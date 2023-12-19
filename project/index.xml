@@ -7,10 +7,21 @@
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; Francesco Granella {year}</copyright>
-    <lastBuildDate>Mon, 14 Aug 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 18 Dec 2023 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Unequal climate impacts on global values of natural capital</title>
+      <link>/project/greenrice/</link>
+      <pubDate>Mon, 18 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/project/greenrice/</guid>
+      <description>&lt;p&gt;&amp;ldquo;Unequal climate impacts on global values of natural capital&amp;rdquo;, &lt;em&gt;Nature&lt;/em&gt; (2023)&lt;/p&gt;
+&lt;p&gt;Ecosystems generate a wide range of benefits for humans, including some market goods as well as other benefits that are not directly reflected in market activity1. Climate change will alter the distribution of ecosystems around the world and change the flow of these benefits2,3. However, the specific implications of ecosystem changes for human welfare remain unclear, as they depend on the nature of these changes, the value of the affected benefits and the extent to which communities rely on natural systems for their well-being4. Here we estimate country-level changes in economic production and the value of non-market ecosystem benefits resulting from climate-change-induced shifts in terrestrial vegetation cover, as projected by dynamic global vegetation models (DGVMs) driven by general circulation climate models. Our results show that the annual population-weighted mean global flow of non-market ecosystem benefits valued in the wealth accounts of the World Bank will be reduced by 9.2% in 2100 under the Shared Socioeconomic Pathway SSP2-6.0 with respect to the baseline no climate change scenario and that the global population-weighted average change in gross domestic product (GDP) by 2100 is −1.3% of the baseline GDP. Because lower-income countries are more reliant on natural capital, these GDP effects are regressive. Approximately 90% of these damages are borne by the poorest 50% of countries and regions, whereas the wealthiest 10% experience only 2% of these losses.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Climate Change Impacts on Within-Country Income Distributions</title>
@@ -20,6 +31,17 @@
       <guid>/project/impacts/</guid>
       <description>&lt;p&gt;With &lt;a href=&#34;https://www.eiee.org/member/martino-gilli/&#34;&gt;Martino Gilli&lt;/a&gt;, &lt;a href=&#34;https://www.som.polimi.it/people/calcaterra-matteo-3/&#34;&gt;Matteo Calcaterra&lt;/a&gt; and &lt;a href=&#34;https://www.eiee.org/member/johannes-emmerling/&#34;&gt;Johannes Emmerling&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;This paper investigates the relationship between climate change and income inequality, recognizing that the economic impacts of climate change are not uniform across different levels of income within and across countries. Using methods from the existing literature on climate and economic growth, we analyze the economic impact of rising temperatures by within-country income decile. Our findings suggest that climate change disproportionately affects the poorer segments of the population within countries, even after accounting for a country&amp;rsquo;s ability to adapt to climate impacts, while the richest suffer the lowest damages. In a Reference scenario without additional climate action, we estimate that climate impacts could lead to an increase of the Gini index by up to six points, notably in Sub-Saharan Africa. Globally, we estimate that around three quarters of the total variation in climate impacts is due to between-country heterogeneity, and one-quarter is due to within-country inequality. We project damages to 2100 through the RICE50+ model and estimate the income elasticity of damages within countries. Our estimates indicate that the total economic impact of climate change is regressive, with an income elasticity of damages of 0.72 under our preferred specification. We find climate impacts to be especially regressive in poorer and hotter countries. While global damages are sensitive to the functional form of the damage function, the estimated income elasticity parameter is robust across different specifications.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>CLAQC V1.0 – Country Level Air Quality Calculator. An Empirical Modeling Approach</title>
+      <link>/project/claqc/</link>
+      <pubDate>Sun, 13 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/project/claqc/</guid>
+      <description>&lt;p&gt;With &lt;a href=&#34;https://www.eiee.org/member/stefania-renna/&#34;&gt;Stefania Renna&lt;/a&gt;, &lt;a href=&#34;https://laleluia.github.io/page/&#34;&gt;Lara Aleluia Reis&lt;/a&gt; and Paulina Estela Schulz-Antipa&lt;/p&gt;
+&lt;p&gt;The Country Level Air Quality Calculator (CLAQC) is an open-source modeling tool that utilizes national sectoral emissions and weather data to forecast monthly and annual concentrations PM2.5 and O3. CLAQC leverages the recent advancements in the CAMS system and employs CAMS global gridded emissions and CAMS reanalysis pollutant concentrations to improve the accuracy of its predictions. One of the notable strengths of CLAQC is its capability to provide country-specific and sectoral information. We have developed two methodological approaches, namely elastic net modeling and extreme gradient boosting regressor, that can effectively predict annual average concentrations for nearly all countries. However, we find that elastic net models have high variability in sectoral contributions. The tool can simulate a vast range of policy scenarios and can be integrated into national policy assessment and optimization frameworks. Finally, we present a method selection framework to optimize performance and an online tool displaying model results.&lt;/p&gt;
 </description>
     </item>
     

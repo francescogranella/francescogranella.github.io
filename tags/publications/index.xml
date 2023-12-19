@@ -7,10 +7,21 @@
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; Francesco Granella {year}</copyright>
-    <lastBuildDate>Mon, 27 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 18 Dec 2023 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="/tags/publications/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Unequal climate impacts on global values of natural capital</title>
+      <link>/project/greenrice/</link>
+      <pubDate>Mon, 18 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/project/greenrice/</guid>
+      <description>&lt;p&gt;&amp;ldquo;Unequal climate impacts on global values of natural capital&amp;rdquo;, &lt;em&gt;Nature&lt;/em&gt; (2023)&lt;/p&gt;
+&lt;p&gt;Ecosystems generate a wide range of benefits for humans, including some market goods as well as other benefits that are not directly reflected in market activity1. Climate change will alter the distribution of ecosystems around the world and change the flow of these benefits2,3. However, the specific implications of ecosystem changes for human welfare remain unclear, as they depend on the nature of these changes, the value of the affected benefits and the extent to which communities rely on natural systems for their well-being4. Here we estimate country-level changes in economic production and the value of non-market ecosystem benefits resulting from climate-change-induced shifts in terrestrial vegetation cover, as projected by dynamic global vegetation models (DGVMs) driven by general circulation climate models. Our results show that the annual population-weighted mean global flow of non-market ecosystem benefits valued in the wealth accounts of the World Bank will be reduced by 9.2% in 2100 under the Shared Socioeconomic Pathway SSP2-6.0 with respect to the baseline no climate change scenario and that the global population-weighted average change in gross domestic product (GDP) by 2100 is −1.3% of the baseline GDP. Because lower-income countries are more reliant on natural capital, these GDP effects are regressive. Approximately 90% of these damages are borne by the poorest 50% of countries and regions, whereas the wealthiest 10% experience only 2% of these losses.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>COVID-19 lockdown only partially alleviates health impacts of air pollution in Northern Italy</title>

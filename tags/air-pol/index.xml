@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Air pol on Francesco Granella</title>
+    <link>/tags/air-pol/</link>
+    <description>Recent content in Air pol on Francesco Granella</description>
+    <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; Francesco Granella {year}</copyright>
+    <lastBuildDate>Sun, 13 Aug 2023 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="/tags/air-pol/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>CLAQC V1.0 – Country Level Air Quality Calculator. An Empirical Modeling Approach</title>
+      <link>/project/claqc/</link>
+      <pubDate>Sun, 13 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/project/claqc/</guid>
+      <description>&lt;p&gt;With &lt;a href=&#34;https://www.eiee.org/member/stefania-renna/&#34;&gt;Stefania Renna&lt;/a&gt;, &lt;a href=&#34;https://laleluia.github.io/page/&#34;&gt;Lara Aleluia Reis&lt;/a&gt; and Paulina Estela Schulz-Antipa&lt;/p&gt;
+&lt;p&gt;The Country Level Air Quality Calculator (CLAQC) is an open-source modeling tool that utilizes national sectoral emissions and weather data to forecast monthly and annual concentrations PM2.5 and O3. CLAQC leverages the recent advancements in the CAMS system and employs CAMS global gridded emissions and CAMS reanalysis pollutant concentrations to improve the accuracy of its predictions. One of the notable strengths of CLAQC is its capability to provide country-specific and sectoral information. We have developed two methodological approaches, namely elastic net modeling and extreme gradient boosting regressor, that can effectively predict annual average concentrations for nearly all countries. However, we find that elastic net models have high variability in sectoral contributions. The tool can simulate a vast range of policy scenarios and can be integrated into national policy assessment and optimization frameworks. Finally, we present a method selection framework to optimize performance and an online tool displaying model results.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
