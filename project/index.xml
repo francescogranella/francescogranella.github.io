@@ -7,10 +7,21 @@
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; Francesco Granella {year}</copyright>
-    <lastBuildDate>Mon, 18 Dec 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 27 Jun 2024 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Climate Change Impacts on Within-Country Income Distributions</title>
+      <link>/project/impacts/</link>
+      <pubDate>Thu, 27 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>/project/impacts/</guid>
+      <description>&lt;p&gt;With &lt;a href=&#34;https://www.eiee.org/member/martino-gilli/&#34;&gt;Martino Gilli&lt;/a&gt;, &lt;a href=&#34;https://www.som.polimi.it/people/calcaterra-matteo-3/&#34;&gt;Matteo Calcaterra&lt;/a&gt; and &lt;a href=&#34;https://www.eiee.org/member/johannes-emmerling/&#34;&gt;Johannes Emmerling&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;This paper investigates the relationship between climate change and income inequality, recognizing that the economic impacts of climate change are not uniform across different levels of income within and across countries. Using methods from the existing literature on climate and economic growth, we analyze the economic impact of rising temperatures by within-country income decile. Our findings suggest that climate change disproportionately affects the poorer segments of the population within countries, even after accounting for a country’s ability to adapt to climate impacts, while richer households suffer lower damages. In the reference scenario without additional climate action (3.6°C warming), we estimate that climate impacts could lead to an increase in the Gini index by up to six percentage points, notably in Sub-Saharan Africa. We project impacts to 2100 through the RICE50+ model and estimate the income elasticity of impacts within countries. Our estimates indicate that climate change damages are regressive, with an income elasticity of damages of 0.6 under our preferred specification. On the other hand, climate benefits are approximately income-neutral.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Unequal climate impacts on global values of natural capital</title>
@@ -31,17 +42,6 @@
       <guid>/project/inhale/</guid>
       <description>&lt;p&gt;With &lt;a href=&#34;https://www.eiee.org/member/stefania-renna/&#34;&gt;Stefania Renna&lt;/a&gt;and &lt;a href=&#34;https://laleluia.github.io/page/&#34;&gt;Lara Aleluia Reis&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;This study performs a data-driven investigation of the impact of agriculture on air pollution in Lombardy, Italy, focusing on secondary inorganic particulate matter (PM) formation resulting from ammonia (NH3) emissions. Leveraging on the predictive power of machine learning models and exploiting the reduction in non-agricultural emissions during the 2020 COVID-19 lockdown, we analyze the complex relationship between NH3, nitrogen dioxide (NO2), and secondary inorganic aerosols (SIA). We find that even substantially large reduction in precursor emissions may not deliver large drops in secondary inorganic PM. While NO2 plays a significant role in urban environments, in rural areas where NH3 levels are high, both NO2 and NH3 contribute to SIA formation. This emphasizes the importance of considering both NH3 and NO2 emissions in policies controlling secondary inorganic PM, as reductions in both precursors may be necessary for significant improvements. The study provides insights into the interplay between agricultural practices and air pollution, more specifically the NH3–NO2 regime and its implications for effective air pollution control strategies in Lombardy.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Climate Change Impacts on Within-Country Income Distributions</title>
-      <link>/project/impacts/</link>
-      <pubDate>Mon, 14 Aug 2023 00:00:00 +0000</pubDate>
-      
-      <guid>/project/impacts/</guid>
-      <description>&lt;p&gt;With &lt;a href=&#34;https://www.eiee.org/member/martino-gilli/&#34;&gt;Martino Gilli&lt;/a&gt;, &lt;a href=&#34;https://www.som.polimi.it/people/calcaterra-matteo-3/&#34;&gt;Matteo Calcaterra&lt;/a&gt; and &lt;a href=&#34;https://www.eiee.org/member/johannes-emmerling/&#34;&gt;Johannes Emmerling&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;This paper investigates the relationship between climate change and income inequality, recognizing that the economic impacts of climate change are not uniform across different levels of income within and across countries. Using methods from the existing literature on climate and economic growth, we analyze the economic impact of rising temperatures by within-country income decile. Our findings suggest that climate change disproportionately affects the poorer segments of the population within countries, even after accounting for a country&amp;rsquo;s ability to adapt to climate impacts, while the richest suffer the lowest damages. In a Reference scenario without additional climate action, we estimate that climate impacts could lead to an increase of the Gini index by up to six points, notably in Sub-Saharan Africa. Globally, we estimate that around three quarters of the total variation in climate impacts is due to between-country heterogeneity, and one-quarter is due to within-country inequality. We project damages to 2100 through the RICE50+ model and estimate the income elasticity of damages within countries. Our estimates indicate that the total economic impact of climate change is regressive, with an income elasticity of damages of 0.72 under our preferred specification. We find climate impacts to be especially regressive in poorer and hotter countries. While global damages are sensitive to the functional form of the damage function, the estimated income elasticity parameter is robust across different specifications.&lt;/p&gt;
 </description>
     </item>
     

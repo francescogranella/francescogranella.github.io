@@ -7,10 +7,21 @@
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; Francesco Granella {year}</copyright>
-    <lastBuildDate>Mon, 18 Dec 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 27 Jun 2024 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="/tags/publications/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Climate Change Impacts on Within-Country Income Distributions</title>
+      <link>/project/impacts/</link>
+      <pubDate>Thu, 27 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>/project/impacts/</guid>
+      <description>&lt;p&gt;With &lt;a href=&#34;https://www.eiee.org/member/martino-gilli/&#34;&gt;Martino Gilli&lt;/a&gt;, &lt;a href=&#34;https://www.som.polimi.it/people/calcaterra-matteo-3/&#34;&gt;Matteo Calcaterra&lt;/a&gt; and &lt;a href=&#34;https://www.eiee.org/member/johannes-emmerling/&#34;&gt;Johannes Emmerling&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;This paper investigates the relationship between climate change and income inequality, recognizing that the economic impacts of climate change are not uniform across different levels of income within and across countries. Using methods from the existing literature on climate and economic growth, we analyze the economic impact of rising temperatures by within-country income decile. Our findings suggest that climate change disproportionately affects the poorer segments of the population within countries, even after accounting for a country’s ability to adapt to climate impacts, while richer households suffer lower damages. In the reference scenario without additional climate action (3.6°C warming), we estimate that climate impacts could lead to an increase in the Gini index by up to six percentage points, notably in Sub-Saharan Africa. We project impacts to 2100 through the RICE50+ model and estimate the income elasticity of impacts within countries. Our estimates indicate that climate change damages are regressive, with an income elasticity of damages of 0.6 under our preferred specification. On the other hand, climate benefits are approximately income-neutral.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Unequal climate impacts on global values of natural capital</title>
