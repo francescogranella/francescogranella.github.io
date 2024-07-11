@@ -24,6 +24,17 @@
     </item>
     
     <item>
+      <title>Impacts of agriculture on PM10 pollution and human health in the Lombardy region in Italy</title>
+      <link>/project/inhale_2/</link>
+      <pubDate>Wed, 26 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>/project/inhale_2/</guid>
+      <description>&lt;p&gt;With &lt;a href=&#34;https://www.eiee.org/member/stefania-renna/&#34;&gt;Stefania Renna&lt;/a&gt;, Jacopo Lunghi, Maurizio Malpede, and Damiano Di Simine.&lt;/p&gt;
+&lt;p&gt;Air pollution is one of the main environmental health concerns globally, with particulate matter (PM) as the primary threat. While many policies address emissions from transport and industry, there is growing evidence of agriculture’s significant impact on air quality. Evaluating how intensive farming impacts PM concentrations and public health is necessary for informed policy interventions. We focus on the Po Valley (Italy), characterized by intensive agricultural practices and substantial pollution levels. Our study examines secondary inorganic aerosol (SIA) concentrations between 2013 and 2020 in Lombardy. Our findings reveal key insights into the impact of intensive farming on air pollution and public health. First, we find that ammonium salts make up over 30% of the daily particulate matter ≤≤ 10 μ m (PM10), with annual levels [11.6–11.8 μg/m3] reaching half of the European Union’s proposed limit (20 μg/m3). Second, exposure tends to peak in low-wind conditions. In Milan, ammonia predominantly flows from the east, aligning with heavy livestock activity, while nitrogen oxides’ (NOx) impacts seem more localized. Rural SIA peaks correlate with winds from NOx-rich areas. These outcomes imply that targeted, single-sector policies might fall short of significantly reducing PM10 concentrations. Additionally, manure spreading raises SIA levels by 2–3 μg/m3 in urban backgrounds the following days. Local sources also stand out in back-trajectory modeling of concentrations. Finally, applying long-term concentration-response functions to ammonium salts as a fraction of PM10, our study suggests that pollution stemming from agricultural activities in Milan leads to approximately 589 [446–866] deaths annually, resulting in an average loss of 6,951 [5,267–10,222] life years. This equates to 43 [33–64] deaths and 511 [387–751] lost life years for every 100,000 residents.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Unequal climate impacts on global values of natural capital</title>
       <link>/project/greenrice/</link>
       <pubDate>Mon, 18 Dec 2023 00:00:00 +0000</pubDate>
@@ -31,6 +42,28 @@
       <guid>/project/greenrice/</guid>
       <description>&lt;p&gt;&amp;ldquo;Unequal climate impacts on global values of natural capital&amp;rdquo;, &lt;em&gt;Nature&lt;/em&gt; (2023)&lt;/p&gt;
 &lt;p&gt;Ecosystems generate a wide range of benefits for humans, including some market goods as well as other benefits that are not directly reflected in market activity1. Climate change will alter the distribution of ecosystems around the world and change the flow of these benefits2,3. However, the specific implications of ecosystem changes for human welfare remain unclear, as they depend on the nature of these changes, the value of the affected benefits and the extent to which communities rely on natural systems for their well-being4. Here we estimate country-level changes in economic production and the value of non-market ecosystem benefits resulting from climate-change-induced shifts in terrestrial vegetation cover, as projected by dynamic global vegetation models (DGVMs) driven by general circulation climate models. Our results show that the annual population-weighted mean global flow of non-market ecosystem benefits valued in the wealth accounts of the World Bank will be reduced by 9.2% in 2100 under the Shared Socioeconomic Pathway SSP2-6.0 with respect to the baseline no climate change scenario and that the global population-weighted average change in gross domestic product (GDP) by 2100 is −1.3% of the baseline GDP. Because lower-income countries are more reliant on natural capital, these GDP effects are regressive. Approximately 90% of these damages are borne by the poorest 50% of countries and regions, whereas the wealthiest 10% experience only 2% of these losses.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The formation of secondary inorganic aerosols: A data-driven investigation of Lombardy&#39;s secondary inorganic aerosol problem</title>
+      <link>/project/inhale/</link>
+      <pubDate>Sun, 17 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/project/inhale/</guid>
+      <description>&lt;p&gt;With &lt;a href=&#34;https://www.eiee.org/member/stefania-renna/&#34;&gt;Stefania Renna&lt;/a&gt;and &lt;a href=&#34;https://laleluia.github.io/page/&#34;&gt;Lara Aleluia Reis&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;This study performs a data-driven investigation of the impact of agriculture on air pollution in Lombardy, Italy, focusing on secondary inorganic particulate matter (PM) formation resulting from ammonia (NH3) emissions. Leveraging on the predictive power of machine learning models and exploiting the reduction in non-agricultural emissions during the 2020 COVID-19 lockdown, we analyze the complex relationship between NH3, nitrogen dioxide (NO2), and secondary inorganic aerosols (SIA). We find that even substantially large reduction in precursor emissions may not deliver large drops in secondary inorganic PM. While NO2 plays a significant role in urban environments, in rural areas where NH3 levels are high, both NO2 and NH3 contribute to SIA formation. This emphasizes the importance of considering both NH3 and NO2 emissions in policies controlling secondary inorganic PM, as reductions in both precursors may be necessary for significant improvements. The study provides insights into the interplay between agricultural practices and air pollution, more specifically the NH3–NO2 regime and its implications for effective air pollution control strategies in Lombardy.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Persistent Effect of Temperature on GDP identified from Lower Frequency Temperature Variability</title>
+      <link>/project/tempgdp/</link>
+      <pubDate>Thu, 27 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/project/tempgdp/</guid>
+      <description>&lt;p&gt;Bastien-Olvera, B. A., Granella, F., &amp;amp; Moore, F. C. (2022). Persistent effect of temperature on GDP identified from lower frequency temperature variability. &lt;em&gt;Environmental Research Letters&lt;/em&gt;, 17(8), 084038&lt;/p&gt;
+&lt;p&gt;It is well established that temperature variability affects a range of outcomes relevant to human welfare, including health, emotion and mood, and productivity across a number of economic sectors. However, a critical and still unresolved empirical question is whether temperature variation has a long-lasting effect on economic productivity and, therefore, whether damages compound over time in response to long-lived changes in temperature expected with climate change. Several studies have identified a relationship between temperature and GDP, but empirical evidence as to the persistence of these effects is still weak. This paper presents a novel approach to isolate the persistent component of temperature effects on output using lower frequency temperature variation. The effects are heterogenous across countries but collectively, using three different GDP datasets, we find evidence of persistent effects, implying temperature affects the determinants of economic growth, not just economic productivity. This in turn means that the aggregate effects of climate change on GDP may be far larger and far more uncertain than currently represented in integrated assessment models used to calculate the social cost of carbon.&lt;/p&gt;
 </description>
     </item>
     

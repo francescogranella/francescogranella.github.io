@@ -7,10 +7,21 @@
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; Francesco Granella {year}</copyright>
-    <lastBuildDate>Sun, 17 Dec 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 26 Jun 2024 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="/tags/air-pollution/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Impacts of agriculture on PM10 pollution and human health in the Lombardy region in Italy</title>
+      <link>/project/inhale_2/</link>
+      <pubDate>Wed, 26 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>/project/inhale_2/</guid>
+      <description>&lt;p&gt;With &lt;a href=&#34;https://www.eiee.org/member/stefania-renna/&#34;&gt;Stefania Renna&lt;/a&gt;, Jacopo Lunghi, Maurizio Malpede, and Damiano Di Simine.&lt;/p&gt;
+&lt;p&gt;Air pollution is one of the main environmental health concerns globally, with particulate matter (PM) as the primary threat. While many policies address emissions from transport and industry, there is growing evidence of agriculture’s significant impact on air quality. Evaluating how intensive farming impacts PM concentrations and public health is necessary for informed policy interventions. We focus on the Po Valley (Italy), characterized by intensive agricultural practices and substantial pollution levels. Our study examines secondary inorganic aerosol (SIA) concentrations between 2013 and 2020 in Lombardy. Our findings reveal key insights into the impact of intensive farming on air pollution and public health. First, we find that ammonium salts make up over 30% of the daily particulate matter ≤≤ 10 μ m (PM10), with annual levels [11.6–11.8 μg/m3] reaching half of the European Union’s proposed limit (20 μg/m3). Second, exposure tends to peak in low-wind conditions. In Milan, ammonia predominantly flows from the east, aligning with heavy livestock activity, while nitrogen oxides’ (NOx) impacts seem more localized. Rural SIA peaks correlate with winds from NOx-rich areas. These outcomes imply that targeted, single-sector policies might fall short of significantly reducing PM10 concentrations. Additionally, manure spreading raises SIA levels by 2–3 μg/m3 in urban backgrounds the following days. Local sources also stand out in back-trajectory modeling of concentrations. Finally, applying long-term concentration-response functions to ammonium salts as a fraction of PM10, our study suggests that pollution stemming from agricultural activities in Milan leads to approximately 589 [446–866] deaths annually, resulting in an average loss of 6,951 [5,267–10,222] life years. This equates to 43 [33–64] deaths and 511 [387–751] lost life years for every 100,000 residents.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>The formation of secondary inorganic aerosols: A data-driven investigation of Lombardy&#39;s secondary inorganic aerosol problem</title>
@@ -20,6 +31,17 @@
       <guid>/project/inhale/</guid>
       <description>&lt;p&gt;With &lt;a href=&#34;https://www.eiee.org/member/stefania-renna/&#34;&gt;Stefania Renna&lt;/a&gt;and &lt;a href=&#34;https://laleluia.github.io/page/&#34;&gt;Lara Aleluia Reis&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;This study performs a data-driven investigation of the impact of agriculture on air pollution in Lombardy, Italy, focusing on secondary inorganic particulate matter (PM) formation resulting from ammonia (NH3) emissions. Leveraging on the predictive power of machine learning models and exploiting the reduction in non-agricultural emissions during the 2020 COVID-19 lockdown, we analyze the complex relationship between NH3, nitrogen dioxide (NO2), and secondary inorganic aerosols (SIA). We find that even substantially large reduction in precursor emissions may not deliver large drops in secondary inorganic PM. While NO2 plays a significant role in urban environments, in rural areas where NH3 levels are high, both NO2 and NH3 contribute to SIA formation. This emphasizes the importance of considering both NH3 and NO2 emissions in policies controlling secondary inorganic PM, as reductions in both precursors may be necessary for significant improvements. The study provides insights into the interplay between agricultural practices and air pollution, more specifically the NH3–NO2 regime and its implications for effective air pollution control strategies in Lombardy.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>CLAQC V1.0 – Country Level Air Quality Calculator. An Empirical Modeling Approach</title>
+      <link>/project/claqc/</link>
+      <pubDate>Sun, 13 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/project/claqc/</guid>
+      <description>&lt;p&gt;With &lt;a href=&#34;https://www.eiee.org/member/stefania-renna/&#34;&gt;Stefania Renna&lt;/a&gt;, &lt;a href=&#34;https://laleluia.github.io/page/&#34;&gt;Lara Aleluia Reis&lt;/a&gt; and Paulina Estela Schulz-Antipa&lt;/p&gt;
+&lt;p&gt;The Country Level Air Quality Calculator (CLAQC) is an open-source modeling tool that utilizes national sectoral emissions and weather data to forecast monthly and annual concentrations PM2.5 and O3. CLAQC leverages the recent advancements in the CAMS system and employs CAMS global gridded emissions and CAMS reanalysis pollutant concentrations to improve the accuracy of its predictions. One of the notable strengths of CLAQC is its capability to provide country-specific and sectoral information. We have developed two methodological approaches, namely elastic net modeling and extreme gradient boosting regressor, that can effectively predict annual average concentrations for nearly all countries. However, we find that elastic net models have high variability in sectoral contributions. The tool can simulate a vast range of policy scenarios and can be integrated into national policy assessment and optimization frameworks. Finally, we present a method selection framework to optimize performance and an online tool displaying model results.&lt;/p&gt;
 </description>
     </item>
     
