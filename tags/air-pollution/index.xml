@@ -7,10 +7,21 @@
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; Francesco Granella {year}</copyright>
-    <lastBuildDate>Wed, 26 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 07 May 2025 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="/tags/air-pollution/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>The effect of air purifiers in schools</title>
+      <link>/project/purifiers/</link>
+      <pubDate>Wed, 07 May 2025 00:00:00 +0000</pubDate>
+      
+      <guid>/project/purifiers/</guid>
+      <description>&lt;p&gt;With Jacopo Bonan, Stefania Renna, and Luis Sarmiento.&lt;/p&gt;
+&lt;p&gt;We randomize the installation of air purifiers across primary school classrooms to reduce children’s exposure to air pollution. The intervention reduces indoor PM2.5 concentrations by 32% and decreases student absenteeism by 12.5%. We find larger effects among students with higher pre-treatment absenteeism. The impact is also greater when outdoor air pollution is relatively low and diminishes as outdoor pollution intensifies, consistent with non-linear marginal effects of air quality on health. Treated students report fewer respiratory symptoms and exhibit greater awareness of air quality. Each avoided absence day costs approximately €11, yielding a conservative cost-benefit ratio of one-to-nine.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Impacts of agriculture on PM10 pollution and human health in the Lombardy region in Italy</title>
