@@ -1,686 +1,369 @@
 <!DOCTYPE html>
-<html lang="en-us">
-
+<html>
+ 
+<script>
+function button(id) {
+  var x = document.getElementById(id);
+  var ids = ["purifs", "track", "claqc", "nature23", "jeem24", "fes24", "ae24", "erl22", "erl20", "campaign", "abs1", "abs2", "abs3", "abs4", "abs5", "abs6", "abs7", "abs8", "abs9", "sum1", "sum2", "sum3", "sum4", "sum5", "sum6", "cli1"];
+  for(var i = 0; i < ids.length; i++) {
+    var item = ids[i];
+    if (item != id) {
+      document.getElementById(item).style.display = "none";
+    } else {
+      if (x.style.display === "none") {
+        x.style.display = "block"
+      } else {
+        x.style.display = "none";
+      }
+    }
+  }	
+}
+</script> 
+  
 <head>
-
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="Source Themes Academia 4.3.1">
-  <meta name="generator" content="Hugo 0.89.4" />
-
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/style.css">
   
-
-  
-  
-  
-  
-  
-    
-    
-    
-  
-  
-
-  <meta name="author" content="Francesco Granella">
-
-  
-  
-  
-    
-  
-  <meta name="description" content="">
-
-  
-  <link rel="alternate" hreflang="en-us" href="/">
-
-  
-
-
-  
-
-  
-  
-  
-  <meta name="theme-color" content="#fc6f5c">
-  
-
-  
-  
-  
-  
-    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
-
-    
-    
-    
-      
-    
-    
-      
-      
-        
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/github.min.css" crossorigin="anonymous" title="hl-light">
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
-        
-      
-    
-
-    
-
-    
-
-  
-
-  
-  
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Open+Sans|Roboto+Mono&display=swap">
-  
-
-  
-  
-  
-  <link rel="stylesheet" href="/css/academia.min.76e69f7370e1e1222344c0109d841c44.css">
-
-  
-
-  
-  
-  
-    <script>
-      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-      ga('create', 'G-6457CF8EGN', 'auto');
-      
-      ga('require', 'eventTracker');
-      ga('require', 'outboundLinkTracker');
-      ga('require', 'urlChangeTracker');
-      ga('send', 'pageview');
-    </script>
-    <script async src="//www.google-analytics.com/analytics.js"></script>
-    
-    <script async src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js" integrity="sha512-HUmooslVKj4m6OBu0OgzjXXr+QuFYy/k7eLI5jdeEy/F4RSgMn6XRWRGkFi5IFaFgy7uFTkegp3Z0XnJf3Jq+g==" crossorigin="anonymous"></script>
-    
-  
-  
-
-  
-  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="Francesco Granella">
-  <link rel="feed" href="/index.xml" type="application/rss+xml" title="Francesco Granella">
-  
-
-  <link rel="manifest" href="/site.webmanifest">
-  <link rel="icon" type="image/png" href="/img/icon.png">
-  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
-
-  <link rel="canonical" href="/">
-
-  
-  
-  
-  
-    
-    
-  
-  <meta property="twitter:card" content="summary">
-  
-  <meta property="og:site_name" content="Francesco Granella">
-  <meta property="og:url" content="/">
-  <meta property="og:title" content="Francesco Granella">
-  <meta property="og:description" content=""><meta property="og:image" content="/img/icon-192.png">
-  <meta property="twitter:image" content="/img/icon-192.png"><meta property="og:locale" content="en-us">
-  
-  <meta property="og:updated_time" content="2030-06-01T13:00:00&#43;00:00">
-  
-
-  
-
-
-  
-
-
-
-
-
+  <!-- Primary Meta Tags -->
   <title>Francesco Granella</title>
+  <meta name="title" content="Francesco Granella">
+  <meta name="description" content="RFF-CMCC European Institute on Ecoonomics and the Environment">
 
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://francescogranella.github.io/">
+  <meta property="og:title" content="Francesco Granella">
+  <meta property="og:description" content="I am a Jr Scientist (tenure track) at RFF-CMCC European Institute on Economics and the Environment (EIEE). My work explores the economic costs of climate change and environmental stressors, in particular air pollution.">
+  <meta property="og:image" content="files/photo.jpg">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://francescogranella.github.io/">
+  <meta property="twitter:title" content="Francesco Granella">
+  <meta property="twitter:description" content="I am a Jr Scientist (tenure track) at RFF-CMCC European Institute on Economics and the Environment (EIEE). My work explores the economic costs of climate change and environmental stressors, in particular air pollution.">
+  <meta property="twitter:image" content="files/photo.jpg">
+
+  <!-- Favicons -->
+  <link rel="apple-touch-icon" sizes="57x57" href="files/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="60x60" href="files/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="72x72" href="files/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="76x76" href="files/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="114x114" href="files/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="120x120" href="files/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="144x144" href="files/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="152x152" href="files/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="180x180" href="files/favicon.ico" />
+  <link rel="icon" type="image/png" href="files/favicon.ico" sizes="196x196" />
+  <link rel="icon" type="image/png" href="files/favicon.ico" sizes="192x192" />
+  <link rel="icon" type="image/png" href="files/favicon.ico" sizes="128x128" />
+  <link rel="icon" type="image/png" href="files/favicon.ico" sizes="96x96" />
+  <link rel="icon" type="image/png" href="files/favicon.ico" sizes="32x32" />
+  <link rel="icon" type="image/png" href="files/favicon.ico" sizes="16x16" />
+  <link rel="mask-icon" href="files/favicon.ico" color="#ffffff">
+  <meta name="application-name" content=""/>
+  <meta name="msapplication-TileColor" content="#FFFFFF" />
+  <meta name="msapplication-TileImage" content="files/favicon.ico" />
+  <meta name="msapplication-square70x70logo" content="files/favicon.ico" />
+  <meta name="msapplication-square150x150logo" content="files/favicon.ico" />
+  <meta name="msapplication-square310x310logo" content="files/favicon.ico" />
+   
+  <style>
+    @font-face{
+  font-family:'Noto Sans';
+  font-weight:400;
+  font-style:normal;
+  src:url("../fonts/Noto-Sans-regular/Noto-Sans-regular.eot");
+  src:url("../fonts/Noto-Sans-regular/Noto-Sans-regular.eot?#iefix")
+  format("embedded-opentype"),local("Noto Sans"),local("Noto-Sans-regular"),url("../fonts/Noto-Sans-regular/Noto-Sans-regular.woff2")
+  format("woff2"),url("../fonts/Noto-Sans-regular/Noto-Sans-regular.woff")
+  format("woff"),url("../fonts/Noto-Sans-regular/Noto-Sans-regular.ttf")
+  format("truetype"),url("../fonts/Noto-Sans-regular/Noto-Sans-regular.svg#NotoSans")
+  format("svg")
+}
+
+@font-face{
+  font-family:'Noto Sans';
+  font-weight:700;
+  font-style:normal;
+  src:url("../fonts/Noto-Sans-700/Noto-Sans-700.eot");
+  src:url("../fonts/Noto-Sans-700/Noto-Sans-700.eot?#iefix")
+  format("embedded-opentype"),local("Noto Sans Bold"),local("Noto-Sans-700"),url("../fonts/Noto-Sans-700/Noto-Sans-700.woff2") 
+  format("woff2"),url("../fonts/Noto-Sans-700/Noto-Sans-700.woff")
+  format("woff"),url("../fonts/Noto-Sans-700/Noto-Sans-700.ttf") format("truetype"),url("../fonts/Noto-Sans-700/Noto-Sans-700.svg#NotoSans")
+  format("svg")
+}
+
+@font-face{
+  font-family:'Noto Sans';
+  font-weight:400;
+  font-style:italic;
+  src:url("../fonts/Noto-Sans-italic/Noto-Sans-italic.eot");
+  src:url("../fonts/Noto-Sans-italic/Noto-Sans-italic.eot?#iefix")
+  format("embedded-opentype"),local("Noto Sans Italic"),local("Noto-Sans-italic"),url("../fonts/Noto-Sans-italic/Noto-Sans-italic.woff2")
+  format("woff2"),url("../fonts/Noto-Sans-italic/Noto-Sans-italic.woff")
+  format("woff"),url("../fonts/Noto-Sans-italic/Noto-Sans-italic.ttf")
+  format("truetype"),url("../fonts/Noto-Sans-italic/Noto-Sans-italic.svg#NotoSans")
+  format("svg")
+}
+
+@font-face{
+  font-family:'Noto Sans';
+  font-weight:700;
+  font-style:italic;src:url("../fonts/Noto-Sans-700italic/Noto-Sans-700italic.eot");
+  src:url("../fonts/Noto-Sans-700italic/Noto-Sans-700italic.eot?#iefix")
+  format("embedded-opentype"),local("Noto Sans Bold Italic"),local("Noto-Sans-700italic"),url("../fonts/Noto-Sans-700italic/Noto-Sans-700italic.woff2")
+  format("woff2"),url("../fonts/Noto-Sans-700italic/Noto-Sans-700italic.woff")
+  format("woff"),url("../fonts/Noto-Sans-700italic/Noto-Sans-700italic.ttf")
+  format("truetype"),url("../fonts/Noto-Sans-700italic/Noto-Sans-700italic.svg#NotoSans")
+  format("svg")
+}
+  
+div.buttonbar{
+  color:#666;
+}
+div.popup{
+  margin-top:15px;
+  margin-left:0px;
+  border-left:1px solid #bbbbbb;
+  padding-left:15px;
+  color:#666;
+}
+.button{
+  background-color:#ffffff;
+  padding:0px;
+  font:14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color:#0a7fda;
+  font-weight:400;
+  cursor:pointer;
+  border:none;
+}
+.wrapper{width:860px;margin:0 auto}
+
+header{width:230px; float:left; position:fixed; -webkit-font-smoothing:subpixel-antialiased}
+section{width:540px; float:right; padding-bottom:50px}
+footer{width:230px; float:left; position:fixed; bottom:50px; -webkit-font-smoothing:subpixel-antialiased}
+img{max-width:100%}
+h1,h2,h3,h4,h5,h6{margin:0 0 20px}
+h1,h2,h3{line-height:1.1}
+h1{color:#000; font-size:28px}
+h2,h3,h4,h5,h6{color:#222}
+body{
+  background-color:#fff;
+  padding:50px;
+  font:14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color:#666;
+  font-weight:400
+}
+small{font-size:11px}
+p{color:#222; margin:0 0 20px}
+a{color:#0a7fda; text-decoration:none}
+/* #267CB9 #188aff #0a7fda */
+
+@media print, screen and (max-width:960px){
+  div.wrapper{width:auto; margin:0}
+  header,section,footer{float:none; position:static; width:auto}
+  header{padding-right:320px}
+  section{border:1px solid #e5e5e5; border-width:1px 0; padding:20px 0; margin:0 0 20px}
+  header a small{display:inline}
+  header ul{position:absolute; right:50px; top:52px}
+}
+
+@media print, screen and (max-width:720px){
+  body{word-wrap:break-word}
+  header{padding:0; text-align:center}
+  header ul,header p.view{position:static}
+  pre,code{word-wrap:normal}
+}
+
+@media print, screen and (max-width:480px){
+  body{padding:15px}.downloads{width:99%}.downloads
+  li,.downloads
+  li+li+li{width:33%}
+}
+
+@media print{
+  body{padding:0.4in; font-size:12pt; color:#222}
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: #666;
+    color: #666;
+}
+
+  </style>
+
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-6457CF8EGN"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-6457CF8EGN');
+  </script>
 </head>
 
+<body>
+  <div class="wrapper">
+  <header>
+    <img src="files/photo.jpg" width="230"/>
+    <p></p>
+    <h1>Francesco Granella</h1>
+    <p><strong>Jr Scientist</strong>
+        <!-- <p></p> -->
+    <br><strong>RFF-CMCC European Institute on Economics and the Environment; </strong>
+    <!-- <p></p> -->
+    <br><strong>Euro-Mediterranean Center on Climate Change</strong>
+    </p>
+    <a href="mailto:francesco.granella@cmcc.it" style="color:#222">francesco.granella@cmcc.it</a>
+  </header>
+    
+  <section>  
+  <p>I am a Jr Scientist (tenure track) at RFF-CMCC European Institute on Economics and the Environment (EIEE). I received my Ph.D. in Public Policy from Bocconi University. Between September 2021 and April 2022 I was a visiting scholar at the University of California at Davis.
 
-<body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71" >
+    My work explores the economic costs of climate change and environmental stressors, in particular air pollution. [ <a href="files/CV.pdf" target="_blank">CV</a> ]</p>
+  
+  <h3>Working papers</h3>
 
-  <aside class="search-results" id="search">
-  <div class="container">
-    <section class="search-header">
+  <p style="margin-bottom:0">The Effect of Air Purifiers in Schools
+    <br> (with Jacopo Bonan, Stefania Renna and Luis Sarmiento)</p>
+  <p style="margin-bottom:0; color:#666"><em>Submitted</em></p>
+  <div class="buttonbar">[ 
+    <button class="button" onclick="button(&quot;purifs&quot;)">abstract</button>
+    | <a href="htps://media.rff.org/documents/WP_2t5-17.pdf" target="_blank">paper</a> 
+    | <a href="survey_purifiers_eng.pdf" target="_blank">questionnaire</a> 
+    | media: <a href="https://www.newscientist.com/article/2478252-air-filters-in-classrooms-reduce-sick-days-by-more-than-10-per-cent/" target="_blank">NewScientist</a> 
+    , <a href="https://lavoce.info/archives/107853/meno-assenze-se-in-classe-laria-e-pulita/" target="_blank">LaVoce.info</a> 
+  ]</div>
+  <div class="popup" id="purifs" style="display:none">We randomize the installation of air purifiers across primary school classrooms to reduce children’s exposure to air pollution. The intervention reduces indoor PM2.5 concentrations by 32% and decreases student absenteeism by 12.5%. We find larger effects among students with higher pre-treatment absenteeism. The impact is also greater when outdoor air pollution is relatively low and diminishes as outdoor pollution intensifies, consistent with non-linear marginal effects of air quality on health. Treated students report fewer respiratory symptoms and exhibit greater awareness of air quality. Each avoided absence day costs approximately €11, yielding a conservative cost-benefit ratio of one-to-nine.</div>
+  <br>
+  
 
-      <div class="row no-gutters justify-content-between mb-3">
-        <div class="col-6">
-          <h1>Search</h1>
-        </div>
-        <div class="col-6 col-search-close">
-          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
-        </div>
-      </div>
+  <p style="margin-bottom:0">Heterogeneous Effects of Air Pollution on Physical Tasks: Evidence from Amateur Track and Field</p>
+  <div class="buttonbar">[ 
+    <button class="button" onclick="button(&quot;track&quot;)">abstract</button>
+    | <a href="https://francescogranella.github.io/files/Pollution-and-physical-performance.pdf" target="_blank">paper</a> 
+  ]</div>
+  <div class="popup" id="track" style="display:none">Although a large share of the world’s population is employed in manual labor, our understanding of the productivity costs of air pollution for physically intensive work remains limited. This paper estimates the effect of fine particulate matter (PM 2.5) on purely physical tasks by analyzing half a million amateur track and field competition results, a setting where cognition plays a minor role. Exploiting the panel nature of the data and high dimensional fixed effects, I find that a 10 µg/m3 increase in PM 2.5 reduces performance by 1% of a standard deviation. The effect grows with the duration of effort, indicating that productivity losses may be larger for occupations requiring low-intensity and sustained effort, such as construction workers.</div>
+  <br>
+  
+  <h3>Papers</h3>
 
-      <div id="search-box">
-        
-        
-        
-      </div>
-
-    </section>
-    <section class="section-search-results">
-
-      <div id="search-hits">
-        
-      </div>
-
-    </section>
+  <p style="margin-bottom:0">CLAQC v1.0 – Country Level Air Quality Calculator: an empirical modeling approach (with Stefania Renna, Lara Aleluia Reis, Paulina Antipa</p>
+    <p style="margin-bottom:0; color:#666"><em>Geosci. Model Dev. 2025</em></p>
+  <div class="buttonbar">[ 
+    <button class="button" onclick="button(&quot;claqc&quot;)">abstract</button>
+    | <a href="https://gmd.copernicus.org/articles/18/2373/2025/" target="_blank">paper</a> 
+  ]</div>
+  <div class="popup" id="claqc" style="display:none">The Country Level Air Quality Calculator (CLAQC) is an open-source modeling tool that utilizes national sectoral emissions and weather data to forecast monthly and annual concentrations of PM2.5 and O3. CLAQC leverages the recent advancements in the Copernicus Atmosphere Monitoring Service (CAMS) system, employing CAMS global gridded emissions and CAMS reanalysis pollutant concentrations to improve the accuracy of its predictions. One of the notable strengths of CLAQC is its ability to provide country-specific and sectoral information. We have developed two methodological approaches, namely, elastic net modeling and extreme gradient boosting regressor, that can effectively predict annual average concentrations for nearly all countries. Both methods show good performance for the country's yearly average, while sensitivity tests show less robust results at the sectoral level. The tool can simulate a vast range of policy scenarios and can be integrated into national policy assessment and optimization frameworks. Finally, we present a method selection framework for each country to optimize performance and an online tool displaying model results.</div>
+  <br>
+ 
+ 
+  <p style="margin-bottom:0">Unequal climate impacts on global values of natural capital (with Bernie Bastien-Olvera, Marc Conte, Xiali Dong, Tania Briceno, David Batker, Johannes Emmerling, Massimo Tavoni, and Fran Moore)</p>
+    <p style="margin-bottom:0; color:#666"><em>Nature 2023</em></p>
+  <div class="buttonbar">[ 
+    <button class="button" onclick="button(&quot;nature23&quot;)">abstract</button>
+    | <a href="https://www.nature.com/articles/s41586-023-06769-z" target="_blank">paper</a> 
+  ]</div>
+  <div class="popup" id="nature23" style="display:none">
+  Ecosystems generate a wide range of benefits for humans, including some market goods as well as other benefits that are not directly reflected in market activity1. Climate change will alter the distribution of ecosystems around the world and change the flow of these benefits2,3. However, the specific implications of ecosystem changes for human welfare remain unclear, as they depend on the nature of these changes, the value of the affected benefits and the extent to which communities rely on natural systems for their well-being4. Here we estimate country-level changes in economic production and the value of non-market ecosystem benefits resulting from climate-change-induced shifts in terrestrial vegetation cover, as projected by dynamic global vegetation models (DGVMs) driven by general circulation climate models. Our results show that the annual population-weighted mean global flow of non-market ecosystem benefits valued in the wealth accounts of the World Bank will be reduced by 9.2% in 2100 under the Shared Socioeconomic Pathway SSP2-6.0 with respect to the baseline no climate change scenario and that the global population-weighted average change in gross domestic product (GDP) by 2100 is −1.3% of the baseline GDP. Because lower-income countries are more reliant on natural capital, these GDP effects are regressive. Approximately 90% of these damages are borne by the poorest 50% of countries and regions, whereas the wealthiest 10% experience only 2% of these losses.
   </div>
-</aside>
+  <br>
 
-
-  
-<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0" id="navbar-main">
-  <div class="container">
-
-    
-      <a class="navbar-brand" href="/">Francesco Granella</a>
-      
-      <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation"><span><i class="fas fa-bars"></i></span>
-      </button>
-      
-
-    
-    <div class="collapse navbar-collapse" id="navbar">
-      
-      
-      <ul class="navbar-nav ml-auto">
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        
-        
-        
-        
-        
-        
-          
-          
-          
-            
-          
-          
-        
-
-        <li class="nav-item">
-          <a class="nav-link " href="/#about" data-target="#about"><span>Home</span></a>
-        </li>
-
-        
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        
-        
-        
-        
-        
-        
-
-        <li class="nav-item">
-          <a class="nav-link " href="/research/"><span>Research</span></a>
-        </li>
-
-        
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        
-        
-        
-        
-        
-        
-
-        <li class="nav-item">
-          <a class="nav-link " href="/courses/"><span>Teaching</span></a>
-        </li>
-
-        
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        
-        
-        
-        
-        
-        
-
-        <li class="nav-item">
-          <a class="nav-link " href="/CV.pdf"><span>CV</span></a>
-        </li>
-
-        
-        
-
-      
-
-        
-
-        
-
-        
-
-        
-        <li class="nav-item">
-          <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
-        </li>
-        
-
-      </ul>
-    </div>
+  <p style="margin-bottom:0">Climate Change Impacts on Within-Country Income Distributions (with Martino Gilli, Matteo Calcaterra and Johannes Emmerling)</p>
+    <p style="margin-bottom:0; color:#666"><em>JEEM 2024</em></p>
+  <div class="buttonbar">[ 
+    <button class="button" onclick="button(&quot;jeem24&quot;)">abstract</button>
+    | <a href="https://www.sciencedirect.com/science/article/pii/S009506962400086X" target="_blank">paper</a> 
+  ]</div>
+  <div class="popup" id="jeem24" style="display:none">
+  This paper investigates the relationship between climate change and income inequality, recognizing that the economic impacts of climate change are not uniform across different levels of income within and across countries. Using methods from the existing literature on climate and economic growth, we analyze the economic impact of rising temperatures by within-country income decile. Our findings suggest that climate change disproportionately affects the poorer segments of the population within countries, even after accounting for a country’s ability to adapt to climate impacts, while richer households suffer lower damages. In the reference scenario without additional climate action (3.6°C warming), we estimate that climate impacts could lead to an increase in the Gini index by up to six percentage points, notably in Sub-Saharan Africa. We project impacts to 2100 through the RICE50+ model and estimate the income elasticity of impacts within countries. Our estimates indicate that climate change damages are regressive, with an income elasticity of damages of 0.6 under our preferred specification. On the other hand, climate benefits are approximately income-neutral.
   </div>
-</nav>
+  <br>
 
-
-  
-
-
-<span class="js-widget-page d-none"></span>
-
-
-
-
-  
-
-
-
-
-
-
-
-  
-  
-  
-
-  
-    
-  
-
-  
-
-  
-    
-    
-    
-    
-  
-
-  
-
-  
-
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-  
-  
-
-  
-  
-
-  <section id="hero" class="home-section wg-hero  parallax " style="background-color: #fff;background-image:  url(&#39;/img/forest.jpg&#39;);" >
-    <div class="container">
-      
-
-
-
-
-
-    
-
-    
-    
-
-  
-  
-    </div>
-  </section>
-
-  
-  
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-  
-  
-
-  
-  
-
-  <section id="about" class="home-section wg-about   "  >
-    <div class="container">
-      
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="row" itemprop="author" itemscope itemtype="http://schema.org/Person"
-  itemref="">
-  <div class="col-lg-5">
-    <div id="profile">
-      
-      
-      <img class="img-fluid" src="/img/photo.jpg" itemprop="image" alt="Avatar">
-      
-    </div>
-    <ul class="network-icon bg-white mx-2 py-2 text-center" aria-hidden="true">
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      <li class="mx-3">
-        <a itemprop="sameAs" href="https://twitter.com/F_Granella" target="_blank" rel="noopener">
-          <i class="fab fa-twitter"></i>
-        </a>
-      </li>
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      <li class="mx-3">
-        <a itemprop="sameAs" href="https://github.com/francescogranella" target="_blank" rel="noopener">
-          <i class="fab fa-github"></i>
-        </a>
-      </li>
-      
-    </ul>
+  <p style="margin-bottom:0">Impacts of agriculture on PM10 pollution and human health in the Lombardy region in Italy (with Stefania Renna, Jacopo Lunghi, Maurizio Malpede, and Damiano Di Simine)</p>
+    <p style="margin-bottom:0; color:#666"><em>Frontires in Environmental Science 2024</em></p>
+  <div class="buttonbar">[ 
+    <button class="button" onclick="button(&quot;fes24&quot;)">abstract</button>
+    | <a href="https://www.frontiersin.org/journals/environmental-science/articles/10.3389/fenvs.2024.1369678/full" target="_blank">paper</a> 
+  ]</div>
+  <div class="popup" id="fes24" style="display:none">
+  Air pollution is one of the main environmental health concerns globally, with particulate matter (PM) as the primary threat. While many policies address emissions from transport and industry, there is growing evidence of agriculture’s significant impact on air quality. Evaluating how intensive farming impacts PM concentrations and public health is necessary for informed policy interventions. We focus on the Po Valley (Italy), characterized by intensive agricultural practices and substantial pollution levels. Our study examines secondary inorganic aerosol (SIA) concentrations between 2013 and 2020 in Lombardy. Our findings reveal key insights into the impact of intensive farming on air pollution and public health. First, we find that ammonium salts make up over 30% of the daily particulate matter ≤≤ 10 μ m (PM10), with annual levels [11.6–11.8 μg/m3] reaching half of the European Union’s proposed limit (20 μg/m3). Second, exposure tends to peak in low-wind conditions. In Milan, ammonia predominantly flows from the east, aligning with heavy livestock activity, while nitrogen oxides’ (NOx) impacts seem more localized. Rural SIA peaks correlate with winds from NOx-rich areas. These outcomes imply that targeted, single-sector policies might fall short of significantly reducing PM10 concentrations. Additionally, manure spreading raises SIA levels by 2–3 μg/m3 in urban backgrounds the following days. Local sources also stand out in back-trajectory modeling of concentrations. Finally, applying long-term concentration-response functions to ammonium salts as a fraction of PM10, our study suggests that pollution stemming from agricultural activities in Milan leads to approximately 589 [446–866] deaths annually, resulting in an average loss of 6,951 [5,267–10,222] life years. This equates to 43 [33–64] deaths and 511 [387–751] lost life years for every 100,000 residents.
   </div>
-  <div class="col-lg-7" itemprop="description">
-
-    <div class="portrait-title">
-      <h2 itemprop="name">Francesco Granella</h2>
-      
-
-      
-    </div>
-
-    <link itemprop="url" href="">
-
-
-
-    <p>I am a Post-Doc at RFF-CMCC European Institute on Economics and the Environment (<a href="https://www.eiee.org/">EIEE</a>). I received my Ph.D. in Public Policy from <a href="https://www.unibocconi.eu/wps/wcm/connect/bocconi/sitopubblico_en/navigation+tree/home/">Bocconi University</a>. Between September 2021 and April 2022 I was a visiting scholar at the <a href="https://desp.ucdavis.edu/people/frances-c-moore">University of California at Davis</a>.</p>
-<p>My work explores the economic costs of climate change and environmental stressors, in particular air pollution.</p>
-<p>You can contact me at francesco [dot] granella [at] cmcc.it</p>
-
-
-    
-
-
-    
+  <br>
+  
+  <p style="margin-bottom:0">The formation of secondary inorganic aerosols: A data-driven investigation of Lombardy's secondary inorganic aerosol problem (with Stefania Rennaand Lara Aleluia Reis)</p>
+    <p style="margin-bottom:0; color:#666"><em>Athmospheric Environment 2024</em></p>
+  <div class="buttonbar">[ 
+    <button class="button" onclick="button(&quot;ae24&quot;)">abstract</button>
+    | <a href="https://www.sciencedirect.com/science/article/abs/pii/S1352231024001559" target="_blank">paper</a> 
+  ]</div>
+  <div class="popup" id="ae24" style="display:none">
+  This study performs a data-driven investigation of the impact of agriculture on air pollution in Lombardy, Italy, focusing on secondary inorganic particulate matter (PM) formation resulting from ammonia (NH3) emissions. Leveraging on the predictive power of machine learning models and exploiting the reduction in non-agricultural emissions during the 2020 COVID-19 lockdown, we analyze the complex relationship between NH3, nitrogen dioxide (NO2), and secondary inorganic aerosols (SIA). We find that even substantially large reduction in precursor emissions may not deliver large drops in secondary inorganic PM. While NO2 plays a significant role in urban environments, in rural areas where NH3 levels are high, both NO2 and NH3 contribute to SIA formation. This emphasizes the importance of considering both NH3 and NO2 emissions in policies controlling secondary inorganic PM, as reductions in both precursors may be necessary for significant improvements. The study provides insights into the interplay between agricultural practices and air pollution, more specifically the NH3–NO2 regime and its implications for effective air pollution control strategies in Lombardy.
   </div>
-</div>
+  <br>  
 
-    </div>
-  </section>
-
-  
-  
-  
-
-  
-    
-  
-
-  
-
-  
-    
-    
-    
-    
-  
-
-  
-
-  
-
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-  
-  
-
-  
-  
-
-  <section id="contact" class="home-section wg-contact  parallax " style="background-color: #fff;background-image:  url(&#39;/img/forest.jpg&#39;);" >
-    <div class="container">
-      
-
-
-
-
-
-    </div>
-  </section>
-
-
-
-      
-
-    
-    
-
-    
-    
-    
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
-
-      
-
-      
-        
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js" integrity="sha256-aYTdUrn6Ow1DDgh5JTc3aDGnnju48y/1c8s1dgkYPQ8=" crossorigin="anonymous"></script>
-        
-      
-
-      
-      
-    
-
-    
-    
-
-    
-    
-    
-
-    
-    
-    <script>hljs.initHighlightingOnLoad();</script>
-    
-
-    
-
-    
-    
-
-    
-
-    
-    
-
-    
-    
-
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    <script src="/js/academia.min.e40e230d9b3dfeac86994156b6388764.js"></script>
-
-    
-
-
-
-
-
-
-  
-  <div class="container">
-    <footer class="site-footer">
-  <div class="container">
-    <div class="row align-items-center">
-       <div class="col-md-6 mb-4 mb-md-0">
-        
-        <p class="powered-by">
-          <a href="/privacy/"></a>
-        </p>
-        
-        <p class="mb-0">
-          &middot; © Francesco Granella 2025 &middot; 
-         
-        </p>
-      </div> 
-      <div class="col-md-6">
-        <ul class="list-inline network-icon text-right mb-0">
-          
-          
-        </ul>
-      </div>
-    </div>
+  <p style="margin-bottom:0">Persistent Effect of Temperature on GDP identified from Lower Frequency Temperature Variability (with Bernardo Bastien-Olvera and Frances Moore)</p>
+    <p style="margin-bottom:0; color:#666"><em>Environmental Research Letters 2022</em></p>
+  <div class="buttonbar">[ 
+    <button class="button" onclick="button(&quot;erl22&quot;)">abstract</button>
+    | <a href="https://www.sciencedirect.com/science/article/abs/pii/S1352231024001559" target="_blank">paper</a> 
+    | <a href="https://github.com/BerBastien/TempEffectGDP" target="_blank">code</a> 
+    | media: <a href="https://www.sciencedaily.com/releases/2022/08/220810134130.htm" target="_blank">Science daily</a> 
+    , <a href="https://finance.yahoo.com/news/gets-hotter-every-study-shows-123000278.html?guccounter=1" target="_blank">Yahoo! Finance</a> 
+  ]</div>
+  <div class="popup" id="erl22" style="display:none">
+  It is well established that temperature variability affects a range of outcomes relevant to human welfare, including health, emotion and mood, and productivity across a number of economic sectors. However, a critical and still unresolved empirical question is whether temperature variation has a long-lasting effect on economic productivity and, therefore, whether damages compound over time in response to long-lived changes in temperature expected with climate change. Several studies have identified a relationship between temperature and GDP, but empirical evidence as to the persistence of these effects is still weak. This paper presents a novel approach to isolate the persistent component of temperature effects on output using lower frequency temperature variation. The effects are heterogenous across countries but collectively, using three different GDP datasets, we find evidence of persistent effects, implying temperature affects the determinants of economic growth, not just economic productivity. This in turn means that the aggregate effects of climate change on GDP may be far larger and far more uncertain than currently represented in integrated assessment models used to calculate the social cost of carbon.
   </div>
-</footer>
-  </div>
-  
+  <br>  
 
-  
-<div id="modal" class="modal fade" role="dialog">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title">Cite</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <pre><code class="tex hljs"></code></pre>
-      </div>
-      <div class="modal-footer">
-        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
-          <i class="fas fa-copy"></i> Copy
-        </a>
-        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
-          <i class="fas fa-download"></i> Download
-        </a>
-        <div id="modal-error"></div>
-      </div>
-    </div>
+  <p style="margin-bottom:0">COVID-19 lockdown only partially alleviates health impacts of air pollution in Northern Italy (with Valentina Bosetti, Lara Aleluia Reis and Massimo Tavoni)</p>
+    <p style="margin-bottom:0; color:#666"><em>Environmental Research Letters 2020</em></p>
+  <div class="buttonbar">[ 
+    <button class="button" onclick="button(&quot;erl20&quot;)">abstract</button>
+    | <a href="https://www.sciencedirect.com/science/article/abs/pii/S1352231024001559" target="_blank">paper</a> 
+    | <a href="https://github.com/francescogranella/Lockdown-and-pollution" target="_blank">code</a> 
+    | <a href="https://www.resources.org/resources-radio/air-quality-impacts-covid-19-pandemic-view-two-epicenters-valentina-bosetti/" target="_blank">podcast</a> 
+    | media: <a href="https://www.nationalgeographic.com/magazine/article/air-pollution-kills-millions-every-year-like-a-pandemic-in-slow-motion-feature" target="_blank">National Geographic</a> 
+    , <a href="lavoce.info" target="_blank">lavoce.info</a> 
+  ]</div>
+  <div class="popup" id="erl20" style="display:none">
+  Evaluating the reduction in pollution caused by a sudden change in emissions is complicated by the confounding effect of weather variations. We propose an approach based on machine learning to build counterfactual scenarios that address the effect of weather and apply it to the COVID-19 lockdown of Lombardy, Italy. We show that the lockdown reduced background concentrations of PM2.5 by 3.84 µg m−3 (16%) and NO2 by 10.85 µg m−3 (33%). Improvement in air quality saved at least 11% of the years of life lost and 19% of the premature deaths attributable to COVID-19 in the region during the same period. The analysis highlights the benefits of improving air quality and the need for an integrated policy response addressing the full diversity of emission sources.
   </div>
-</div>
+  <br>  
 
+  <h3>Older Working Papers</h3>
+  
+  <p style="margin-bottom:0">Campaign money for nothing? Understanding the consequences of a ban on corporate contributions: evidence from Brazil (with Alexandros Cavgias)</p>
+  <div class="buttonbar">[ 
+    <button class="button" onclick="button(&quot;campaign&quot;)">abstract</button>
+    | <a href="https://francescogranella.github.io/CrowdOutDonations.pdf" target="_blank">paper</a> 
+  ]</div>
+  <div class="popup" id="campaign" style="display:none">We study the effects of the 2015 ban on corporate contributions in Brazil on the allocation of procurement contracts and the frequency of large personal contributions of corporate members, a channel to circumvent the ban. We use difference in differences regression models that compare outcomes of contributing and non-contributing firms before and after the ban. We document three findings. First, before the ban, contributing firms won 20 to 25% more procurement tenders per year than non-contributing firms. Second, the ban on corporate contributions significantly decreased the number of national procurement contracts won by contributing firms by 2 to 11 percentage points, a magnitude that only partially offset their previous advantage. Third, firms previously making large contributions circumvent the ban in both national and local elections with donations from owners and board members. Together, our findings suggest that a ban on corporate contributions have limited effects on the average influence of contributing firms when there are mechanisms to circumvent the ban.</div>
+  <br>
+
+  <!-- <h3>Data</h3>
+
+  <p style="margin-bottom:0">Sea Level Rise and Urban Infrastructure Data Set (SUDS)</p>
+  <div class="buttonbar">[ 
+    <button class="button" onclick="button(&quot;sum4&quot;)">summary</button> 
+    | <a href="/files/suds/data.zip" target="_blank">data</a> 
+    | <a href="/files/suds/code.zip" target="_blank">code</a>
+    | <a href="/files/suds/readme.pdf" target="_blank">readme</a>
+  ]</div>
+  <div class="popup" id="sum4" style="display:none">I measure the exposure of urban infrastructure to sea level rise of up to 5 meters. These data have global coverage and include 11,422 urban clusters with a total population of 3.7 billion.</div> -->
+  
+  <!-- <hr> -->
+  
+  <br>
+  <h3>Personal & Miscellaneous</h3>
+  <a href="personal.html">When not thinking about environmental problems</a>
+
+  </div>
+  <script src="/assets/js/scale.fix.js"></script>
 </body>
+  
 </html>
