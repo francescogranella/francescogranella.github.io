@@ -3,8 +3,16 @@
  
 <script>
 function button(id) {
+  // Existing code
   var x = document.getElementById(id);
   var ids = ["purifs", "track", "claqc", "nature23", "jeem24", "fes24", "ae24", "erl22", "erl20", "campaign", "abs1", "abs2", "abs3", "abs4", "abs5", "abs6", "abs7", "abs8", "abs9", "sum1", "sum2", "sum3", "sum4", "sum5", "sum6", "cli1"];
+  
+  // Track the click event
+  gtag('event', 'abstract_toggle', {
+    'paper_id': id,
+    'action': (x.style.display === "none") ? 'open' : 'close'
+  });
+  
   for(var i = 0; i < ids.length; i++) {
     var item = ids[i];
     if (item != id) {
