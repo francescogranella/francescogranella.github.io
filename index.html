@@ -3,32 +3,29 @@
  
 <script>
 function button(id) {
-  // Existing code
   var x = document.getElementById(id);
-  var ids = ["purifs", "track", "claqc", "nature23", "jeem24", "fes24", "ae24", "erl22", "erl20", "campaign", "abs1", "abs2", "abs3", "abs4", "abs5", "abs6", "abs7", "abs8", "abs9", "sum1", "sum2", "sum3", "sum4", "sum5", "sum6", "cli1"];
-  
-  // Track the click event - check if gtag exists
+  if (!x) return;
+
+  // Track before toggle (current state)
   if (typeof gtag !== 'undefined') {
     gtag('event', 'abstract_toggle', {
-      'paper_id': id,
-      'action': (x.style.display === "none") ? 'open' : 'close'
+      paper_id: id,
+      action: (x.style.display === "none") ? 'open' : 'close'
     });
   }
-  
-  for(var i = 0; i < ids.length; i++) {
-    var item = ids[i];
-    if (item != id) {
-      document.getElementById(item).style.display = "none";
-    } else {
-      if (x.style.display === "none") {
-        x.style.display = "block"
-      } else {
-        x.style.display = "none";
-      }
+
+  var ids = ["purifs","track","claqc","nature23","jeem24","fes24","ae24","erl22","erl20","campaign"];
+  for (var i = 0; i < ids.length; i++) {
+    var el = document.getElementById(ids[i]);
+    if (!el) continue;
+    if (ids[i] !== id) {
+      el.style.display = "none";
     }
-  }	
+  }
+  x.style.display = (x.style.display === "none") ? "block" : "none";
 }
-</script> 
+</script>
+
   
 <head>
   <meta charset="UTF-8">
