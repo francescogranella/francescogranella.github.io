@@ -382,50 +382,68 @@ hr {
   <script src="/assets/js/scale.fix.js"></script>
   <!-- Track link clicks -->
   <script>
-  // Function to check if gtag is ready
-  function waitForGtag(callback) {
-    if (typeof gtag !== 'undefined') {
-      callback();
-    } else {
-      setTimeout(function() {
-        waitForGtag(callback);
-      }, 100);
-    }
+  function waitForGtag(cb){ if (typeof gtag !== 'undefined') cb(); else setTimeout(function(){ waitForGtag(cb); }, 100); }
+
+  // Improve delivery reliability for all GA hits
+  window.dataLayer = window.dataLayer || [];
+  waitForGtag(function() {
+    gtag('config', 'G-6457CF8EGN', { transport_type: 'beacon' });
+  });
+
+  function getLinkType(link, text){
+    try{
+      var url = new URL(link.href, location.href);
+      if (link.protocol === 'mailto:') return 'mailto';
+      if (link.protocol === 'tel:') return 'tel';
+      if (/\.pdf$/i.test(url.pathname)) return 'pdf';
+      if (text === 'paper') return 'paper';
+      if (text === 'code') return 'code';
+      if (link.closest('.buttonbar')) return 'media';
+      return (url.hostname !== location.hostname) ? 'outbound' : 'internal';
+    }catch(e){ return 'other'; }
   }
 
-  // Wait for both DOM and gtag
-  window.addEventListener('load', function() {
-    waitForGtag(function() {
-      console.log('gtag is ready, attaching link listeners');
-      
-      document.querySelectorAll('a').forEach(function(link) {
-        link.addEventListener('click', function(e) {
-          var href = this.getAttribute('href');
-          var text = this.textContent.trim();
-          
-          // Determine link type
-          var linkType = 'other';
-          if (href && href.match(/\.pdf$/i)) {
-            linkType = 'pdf';
-          } else if (text === 'paper') {
-            linkType = 'paper';
-          } else if (text === 'code') {
-            linkType = 'code';
-          } else if (text.includes('media:') || this.closest('.buttonbar')) {
-            linkType = 'media';
-          }
-          
-          gtag('event', 'link_click', {
-            'link_type': linkType,
-            'link_text': text,
-            'link_url': href,
-            'target': this.getAttribute('target')
-          });
-        });
-      });
-    });
-  });
+  function sendClickEvent(e, link){
+    var text = (link.textContent || '').trim();
+    var url = new URL(link.href, location.href);
+    var params = {
+      link_type: getLinkType(link, text),
+      link_text: text || '(no text)',
+      link_url: url.href,
+      link_domain: url.hostname,
+      target: link.getAttribute('target') || ''
+    };
+
+    var sameTab = !params.target || params.target.toLowerCase() === '_self';
+    var modifier = e && (e.metaKey || e.ctrlKey || e.shiftKey || e.altKey || e.button !== 0);
+
+    if (!sameTab || modifier) {
+      // Don’t block new tabs/middle clicks
+      gtag('event', 'link_click', params);
+      return;
+    }
+
+    // Same-tab: delay navigation until GA confirms (with a safety timeout)
+    e.preventDefault();
+    var navigated = false;
+    gtag('event', 'link_click', Object.assign({}, params, {
+      event_callback: function(){
+        navigated = true;
+        location.href = link.href;
+      },
+      event_timeout: 2000
+    }));
+    setTimeout(function(){ if(!navigated) location.href = link.href; }, 2100);
+  }
+
+  window.addEventListener('click', function(e){
+    var link = e.target.closest && e.target.closest('a');
+    if (!link || !link.href) return;
+    if (typeof gtag === 'undefined') return; // fallback: do nothing
+    sendClickEvent(e, link);
+  }, true); // capture for better reliability
   </script>
+
 </body>
   
 </html>
