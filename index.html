@@ -14,7 +14,7 @@ function button(id) {
     });
   }
 
-  var ids = ["purifs","track","claqc","nature23","jeem24","fes24","ae24","erl22","erl20","campaign"];
+  var ids = ["ncc25", "purifs","track","claqc","nature23","jeem24","fes24","ae24","erl22","erl20","campaign"];
   for (var i = 0; i < ids.length; i++) {
     var el = document.getElementById(ids[i]);
     if (!el) continue;
@@ -235,13 +235,6 @@ hr {
   
   <h3>Working papers</h3>
 
-  <p style="margin-bottom:0">Accounting for Ocean Impacts Nearly Doubles the Social Cost of Carbon (with Bernardo Bastien-Olvera et al.)</p>
-  <p style="margin-bottom:0; color:#666"><em>Accepted at Nature Climate Change</em></p>
-  <div class="buttonbar">[ 
-    paper available upon request
-  ]</div>
-  <br>
-
   <p style="margin-bottom:0">The Effect of Air Purifiers in Schools
     <br> (with Jacopo Bonan, Stefania Renna and Luis Sarmiento)</p>
   <p style="margin-bottom:0; color:#666"><em>Under review</em></p>
@@ -264,6 +257,15 @@ hr {
   <br>
   
   <h3>Papers</h3>
+
+  <p style="margin-bottom:0">Accounting for Ocean Impacts Nearly Doubles the Social Cost of Carbon (with Bernardo Bastien-Olvera et al.)</p>
+  <p style="margin-bottom:0; color:#666"><em>Nature Climate Change</em></p>
+  <div class="buttonbar">[ 
+    <button class="button" onclick="button(&quot;ncc25&quot;)">abstract</button>
+    | <a href="https://www.nature.com/articles/s41558-025-02533-5" target="_blank">paper</a> 
+  ]</div>
+  <div class="popup" id="ncc25" style="display:none">Oceans provide essential benefits to people and the economy, underpinned by the extent and condition of marine ecosystems and infrastructure—or ‘blue’ capital. However, the impacts of climate change on blue capital have been largely overlooked in influential indicators such as the social cost of carbon (SCC). Here we integrate the latest ocean science and economics into a climate-economy model, capturing climate change impacts on corals, mangroves, seaports, fisheries and mariculture to estimate their welfare repercussions at a global scale. Conceptually, this ocean-based SCC (blue SCC) represents a component of the total SCC currently omitted in standard estimates. We estimate the 2020 blue SCC to be US$48 per tCO2 (US$38–70, 25th–75th percentile) with baseline discounting, representing an almost doubling of the SCC estimate from the same model without considering ocean-related impacts. The blue SCC increases to US$168 for a discount rate of 2%.</div>
+  <br>
 
   <p style="margin-bottom:0">CLAQC v1.0 – Country Level Air Quality Calculator: an empirical modeling approach (with Stefania Renna, Lara Aleluia Reis, Paulina Antipa</p>
     <p style="margin-bottom:0; color:#666"><em>Geosci. Model Dev. 2025</em></p>
