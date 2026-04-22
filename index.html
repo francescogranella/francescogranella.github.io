@@ -270,7 +270,7 @@ hr {
   <h3>Published papers</h3>
 
   <p style="margin-bottom:0">Accounting for Ocean Impacts Nearly Doubles the Social Cost of Carbon (with Bernardo Bastien-Olvera et al.)</p>
-  <p style="margin-bottom:0; color:#666"><em>Nature Climate Change 2025</em></p>
+  <p style="margin-bottom:0; color:#666"><em>Nature Climate Change 2026</em></p>
   <div class="buttonbar">[ 
     <button class="button" onclick="button(&quot;ncc25&quot;)">abstract</button>
     | <a href="https://www.nature.com/articles/s41558-025-02533-5" target="_blank">paper</a> 
@@ -447,11 +447,23 @@ hr {
   }
 
   window.addEventListener('click', function(e){
+    if (typeof gtag === 'undefined') return;
+
     var link = e.target.closest && e.target.closest('a');
-    if (!link || !link.href) return;
-    if (typeof gtag === 'undefined') return; // fallback: do nothing
-    sendClickEvent(e, link);
-  }, true); // capture for better reliability
+    if (link && link.href) {
+      sendClickEvent(e, link);
+      return;
+    }
+
+    var btn = e.target.closest && e.target.closest('button');
+    if (btn) {
+      gtag('event', 'click', {
+        element_type: 'button',
+        element_text: (btn.textContent || '').trim() || '(no text)',
+        element_href: ''
+      });
+    }
+  }, true);
   </script>
 
 </body>
